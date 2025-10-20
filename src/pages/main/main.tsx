@@ -1,9 +1,11 @@
 import { Helmet } from 'react-helmet-async';
 import { Offers, Offer } from '../../mocks/data';
-import { CITIES } from '../../utils/constants';
+//import { CITIES } from '../../utils/constants';
 import PlaceCard from '../../components/place-card/place-card';
 import Location from './components/location';
 import Map from './components/map';
+
+const CITIES = ['Paris', 'Cologne', 'Brussels', 'Amsterdam', 'Hamburg', 'Dusseldorf'];
 
 type MainProps = {
   offersCount: number;
