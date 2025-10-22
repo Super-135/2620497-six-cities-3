@@ -1,4 +1,12 @@
+export enum AppRoute {
+  Root='/',
+  Login='/login',
+  Favorites='/favorites',
+  Offer='/offer/:id',
+}
 
-const CITIES = ['Paris', 'Cologne', 'Brussels', 'Amsterdam', 'Hamburg', 'Dusseldorf'];
-
-export {CITIES};
+export enum AuthorizationStatus {
+  Auth = 'AUTH',
+  NoAuth = 'NO_AUTH',
+  Unknown = 'UNKNOWN',
+}
